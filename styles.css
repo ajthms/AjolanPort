@@ -57,7 +57,7 @@ body {
   display: block;
   margin: 0 auto;
   text-align: center;
-  height: 300px;
+  max-height: 300px;
   object-fit: cover;
   animation: fadein 5s;
 }
@@ -263,5 +263,8 @@ form {
     font-size: 70px;
   }
 
+  .photo2 {
+    width: 80vw;
+  }
 
 }
