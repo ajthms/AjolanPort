@@ -267,4 +267,13 @@ form {
     width: 80vw;
   }
 
+  ul {
+      font-size: 10px;
+      flex-direction: column;
+  }
+  
+  li {
+      font-size: 20px;
+  }
+
 }
