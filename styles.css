@@ -81,12 +81,7 @@ h1 {
   }
 }
 
- 
-  @media only screen and (max-width: 600px) {
-    body {
-        grid-template-columns: 1fr;
-    }
-   }
+
 
 .lightbox {
   display: flex;
@@ -237,4 +232,17 @@ form {
 
 .shoppingCartButton:hover {
   background-color: #009900;
+}
+
+@media only screen and (max-width: 600px) {
+  .bio {
+    padding: 30px;
+  }
+  .nav a {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
 }
