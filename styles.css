@@ -173,6 +173,16 @@ p {
   animation: fadein 5s;
 }
 
+.contactAjolan {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 0;
+  color: #fff;
+  font-size: 30px;
+  animation: fadein 5s;
+}
+
 .socials {
   position: relative;
   top: 4px;
@@ -194,10 +204,15 @@ p {
   margin-bottom: 20px;
 }
 
+.product-image img {
+  max-width: 80vw;
+}
+
 .product-description {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
+  padding: 30px;
 }
 
 .product-price {
@@ -212,6 +227,8 @@ p {
   color: white;
   border: none;
   cursor: pointer;
+  width: 180px;
+  height: 40px;
 }
 
 .add-to-cart-button:hover {
@@ -245,4 +262,6 @@ form {
   h1 {
     font-size: 70px;
   }
+
+
 }
